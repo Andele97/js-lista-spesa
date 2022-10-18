@@ -23,6 +23,7 @@ document.getElementById('renderList').append(ul);
 
 for (let i = 0; i < foods.length; i++){
   let li = document.createElement('li');
+  li.classList.add("item");
   li.innerHTML = `${foods[i]}`;
   list.append(li);
 };
@@ -34,6 +35,7 @@ document.getElementById('whileList').append(ul);
 let c = 0;
 while (c < foods.length) {
   let liW = document.createElement('li');
+  liW.classList.add("item");
   liW.innerHTML = `${foods[c]}`;
   whileList.append(liW);
   c++;

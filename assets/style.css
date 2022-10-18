@@ -1,3 +1,21 @@
 body {
   background-color: rgba(0, 0, 0, 0.50);
 }
+
+.item {
+  margin: 5px;
+  list-style: none;
+}
+
+.container {
+  height: 100vh;
+  align-items: center;
+}
+
+.container-list {
+  border: 1px solid;
+  border-radius: 20px;
+  width: 40%;
+  align-items: baseline;
+  justify-content: space-evenly;
+}
